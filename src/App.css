@@ -1,0 +1,138 @@
+.navbar {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  z-index: 2;
+  font-family: "Rubik", sans-serif;
+}
+
+.wellcome-text {
+  padding: 3rem 4rem;
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 30px;
+  font-family: "Rubik", sans-serif;
+}
+
+.wellcome-text h1 {
+  font-family: "Rubik", sans-serif;
+}
+
+.wellcome-text p {
+  font-family: "Rubik", sans-serif;
+}
+
+.Convertercard {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  z-index: 1;
+  font-family: "Rubik", sans-serif;
+}
+
+.footer {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  font-family: "Rubik", sans-serif;
+}
+
+.currency-select {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  font-family: "Rubik", sans-serif;
+}
+
+.currency-select-hide {
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0);
+  font-family: "Rubik", sans-serif;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.amount-input {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  font-family: "Rubik", sans-serif;
+}
+
+.currency-swaper {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  font-family: "Rubik", sans-serif;
+}
+
+.result {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  font-family: "Rubik", sans-serif;
+}
+.currency-swaper:hover {
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.convert-background {
+  background-image: url(./assets/convertbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-background {
+  background-image: url(./assets/homebg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-background {
+  background-image: url(./assets/aboutbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.faq-background {
+  background-image: url(./assets/FAQBACKGROUND.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-background {
+  background-image: url(./assets/contactbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1000px) {
+  .home-background {
+    background-position: center;
+  }
+
+  .wellcome-text {
+    padding: 0;
+  }
+
+  .faq-background {
+    background-position: center;
+  }
+
+  .about-background {
+    background-position: center;
+  }
+
+  .contact-background {
+    background-position: center;
+  }
+}
