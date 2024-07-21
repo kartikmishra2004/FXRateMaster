@@ -40,7 +40,7 @@ const Navbar = () => {
       </div>
       <div id="hamburger" className="lg:hidden flex fa fa-bars items-center text-xl"><img onClick={handleNav} className='w-7 h-7 invert' src={hamMenu} alt="" srcSet="" /></div>
       <div id="mobileNav"
-        className={`${burger} mobilenav bg-[#151835] text-zinc-200 z-10 lg:hidden fixed items-center flex-col gap-8 py-[3rem] px-4 text-2xl h-max inset-0 top-[4.9rem] w-[100%] ease-in-out duration-500 cursor-pointer`}>
+        className={`${burger} mobilenav bg-[#151835] text-zinc-200 z-10 lg:hidden fixed items-center flex-col gap-8 py-[3rem] px-4 text-2xl h-max inset-0 top-[4.9rem] w-[100vw] ease-in-out duration-500 cursor-pointer`}>
         <Link onClick={handleNav} to='/'>Home</Link>
         <Link onClick={handleNav} to='/convert'>Convert currency</Link>
         <Link onClick={handleNav} to='/about'>About us</Link>

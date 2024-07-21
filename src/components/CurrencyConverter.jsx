@@ -32,7 +32,7 @@ const CurrencyConverter = () => {
   }
 
   return (
-    <div className="convert-background flex justify-center pt-[6rem] text-4xl text-zinc-200 bg-[#000322] lg:h-[140vh] h-[160vh] w-[100%]">
+    <div className="convert-background flex justify-center pt-[6rem] text-4xl text-zinc-200 bg-[#000322] lg:h-[140vh] h-[150vh] w-[100%]">
 
       <div className="Convertercard gap-[10px] lg:gap-0 lg:mt-[7vh] mt-[3vh] lg:w-[80vw] w-[95vw] h-[92vh] lg:h-[72vh] rounded-[30px] flex flex-col justify-evenly items-center">
         <h1 className='font-semibold lg:text-5xl text-[1.5rem] p-[15px] lg:p-0 leading-[1]'><span className='font-semibold text-[#4a57de]'>FXRateMaster</span> | get realtime exchange rates</h1>
@@ -46,7 +46,7 @@ const CurrencyConverter = () => {
               label='From'
               selectedCurrency={fromValue}
               handleCurrency={(e) => setFromValue(e.target.value)} />
-            <div onClick={handleSwap} className="currency-swaper relative top-[0.9rem] lg:top-6 flex justify-center items-center cursor-pointer swap w-[50px] h-[50px] rounded-[100%] text-zinc-300 rotate-90 lg:rotate-0">⇆</div>
+            <div onClick={handleSwap} className="currency-swaper relative top-[0.9rem] lg:top-6 flex justify-center items-center cursor-pointer swap w-[50px] h-[50px] rounded-[100%] text-zinc-300 rotate-90 lg:rotate-0 text lg:pb-0 pb-[0.4rem]">⇆</div>
             <CurrencySelect
               label='To'
               selectedCurrency={toValue}

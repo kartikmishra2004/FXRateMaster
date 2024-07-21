@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="about-background flex justify-center pt-[6rem] text-4xl text-zinc-200 bg-[#000322] lg:h-[165vh] h-[200vh] w-[100%]">
-      <div className="flex lg:px-[3rem] px-[1rem] flex-col w-[90vw] h-max about-card lg:py-[3rem] pb-[3rem] lg:mt-[7vh]">
+    <div className="about-background flex justify-center pt-[6rem] text-4xl text-zinc-200 bg-[#000322] lg:h-[165vh] h-[150vh] w-[100%]">
+      <div className="flex lg:px-[3rem] px-[1rem] flex-col w-[90vw] h-max py-10 about-card lg:py-[3rem] pb-[3rem] mt-[1rem] lg:mt-[7vh]">
         <h1 className="lg:text-[3.3rem] text-[2rem] text-center lg:text-start py-3 font-semibold text-zinc-300">
           About FXRateMaster
         </h1>
