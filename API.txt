@@ -1,1 +1,0 @@
-https://latest.currency-api.pages.dev/v1/currencies/inr.json

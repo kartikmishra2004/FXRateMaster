@@ -33,6 +33,15 @@
   z-index: 1;
   font-family: "Rubik", sans-serif;
 }
+.about-card{
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  z-index: 1;
+  border-radius: 30px;
+  font-family: "Rubik", sans-serif;
+}
 
 .footer {
   background: rgba(255, 255, 255, 0.04);
