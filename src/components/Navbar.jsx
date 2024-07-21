@@ -37,10 +37,6 @@ const Navbar = () => {
           FAQ
           <div className="w-0 group-hover:w-full h-0.5 bg-white ease-in-out duration-500"></div>
         </Link>
-        <Link to='/contact' className="group">
-          Contact us
-          <div className="w-0 group-hover:w-full h-0.5 bg-white ease-in-out duration-500"></div>
-        </Link>
       </div>
       <div id="hamburger" className="lg:hidden flex fa fa-bars items-center text-xl"><img onClick={handleNav} className='w-7 h-7 invert' src={hamMenu} alt="" srcSet="" /></div>
       <div id="mobileNav"
@@ -49,7 +45,6 @@ const Navbar = () => {
         <Link onClick={handleNav} to='/convert'>Convert currency</Link>
         <Link onClick={handleNav} to='/about'>About us</Link>
         <Link onClick={handleNav} to='/faq'>FAQ</Link>
-        <Link onClick={handleNav} to='/contact'>Contact us</Link>
       </div>
     </div>
   )
